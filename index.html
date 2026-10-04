@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aaron1261 | Learning, AI Tools & Online Resources</title>
+<title>Aaron1261 | Learning, Technology & AI Resources</title>
+
+<meta name="description" content="Explore AI tools, learning resources, technology guides, productivity tips, and educational content.">
 
 <style>
 
@@ -23,8 +25,7 @@ line-height:1.6;
 
 header{
 background:#0f172a;
-color:white;
-padding:20px;
+padding:18px;
 position:sticky;
 top:0;
 z-index:100;
@@ -34,7 +35,7 @@ nav{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:20px;
+gap:18px;
 }
 
 nav a{
@@ -43,20 +44,24 @@ text-decoration:none;
 font-weight:bold;
 }
 
+nav a:hover{
+opacity:.8;
+}
+
 .hero{
-background:#0f172a;
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
 color:white;
-padding:120px 20px;
+padding:100px 20px;
 text-align:center;
 }
 
 .hero h1{
-font-size:56px;
+font-size:clamp(48px,10vw,90px);
 margin-bottom:20px;
 }
 
 .hero p{
-font-size:30px;
+font-size:clamp(18px,4vw,28px);
 max-width:900px;
 margin:auto;
 }
@@ -65,17 +70,17 @@ margin:auto;
 display:inline-block;
 margin-top:30px;
 padding:15px 30px;
-background:#2563eb;
-color:white;
+background:white;
+color:#1e3a8a;
 text-decoration:none;
+font-weight:bold;
 border-radius:10px;
-font-size:20px;
 }
 
 .container{
 max-width:1200px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
 }
 
 .section-title{
@@ -86,7 +91,7 @@ margin-bottom:40px;
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
 }
 
@@ -95,6 +100,11 @@ background:white;
 padding:25px;
 border-radius:12px;
 box-shadow:0 2px 12px rgba(0,0,0,.1);
+transition:.2s;
+}
+
+.card:hover{
+transform:translateY(-4px);
 }
 
 .card h3{
@@ -104,30 +114,56 @@ margin-bottom:15px;
 .card a{
 display:inline-block;
 margin-top:15px;
-color:#2563eb;
-font-weight:bold;
 text-decoration:none;
+font-weight:bold;
+color:#2563eb;
 }
 
 .banner{
 background:white;
-padding:50px;
-margin-top:40px;
+padding:40px;
 border-radius:12px;
-text-align:center;
+margin-top:30px;
+box-shadow:0 2px 12px rgba(0,0,0,.1);
+}
+
+.topics{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+margin-top:20px;
+}
+
+.topic{
+background:#e5e7eb;
+padding:10px 16px;
+border-radius:20px;
 }
 
 footer{
 background:#0f172a;
 color:white;
-padding:40px;
 text-align:center;
-margin-top:50px;
+padding:50px 20px;
+margin-top:60px;
 }
 
 footer a{
 color:#60a5fa;
 text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.hero{
+padding:70px 15px;
+}
+
+.section-title{
+font-size:32px;
+}
+
 }
 
 </style>
@@ -138,7 +174,6 @@ text-decoration:none;
 <header>
 
 <nav>
-
 <a href="index.html">Home</a>
 <a href="side-hustles.html">Side Hustles</a>
 <a href="ai-tools.html">AI Tools</a>
@@ -147,7 +182,6 @@ text-decoration:none;
 <a href="success.html">Success</a>
 <a href="blog.html">Blog</a>
 <a href="contact.html">Contact</a>
-
 </nav>
 
 </header>
@@ -157,11 +191,13 @@ text-decoration:none;
 <h1>Aaron1261</h1>
 
 <p>
-Learning Skills • Technology Resources • AI Tools •
-Online Opportunities • Productivity • Personal Growth
+Technology Resources, AI Tools, Learning Guides,
+Productivity Strategies, and Educational Content.
 </p>
 
-<a href="#featured" class="button">Explore Resources</a>
+<a href="#featured" class="button">
+Explore Resources
+</a>
 
 </section>
 
@@ -177,68 +213,68 @@ Featured Sections
 <h3>AI Tools</h3>
 <p>
 Discover useful AI tools for writing, productivity,
-research, coding, and business workflows.
+research, learning, and automation.
 </p>
-<a href="ai-tools.html">Visit Page</a>
+<a href="ai-tools.html">Visit Page →</a>
 </div>
 
 <div class="card">
 <h3>Side Hustles</h3>
 <p>
-Learn about freelancing, online income ideas,
-remote work, and digital opportunities.
+Explore freelancing, digital opportunities,
+and ways to build valuable skills.
 </p>
-<a href="side-hustles.html">Visit Page</a>
+<a href="side-hustles.html">Visit Page →</a>
 </div>
 
 <div class="card">
-<h3>Learning Resources</h3>
+<h3>Learning Center</h3>
 <p>
-Explore educational platforms, online courses,
-and skill-building resources.
+Educational resources, online courses,
+and skill development guides.
 </p>
-<a href="learning.html">Visit Page</a>
+<a href="learning.html">Visit Page →</a>
 </div>
 
 <div class="card">
 <h3>Success Guides</h3>
 <p>
-Practical strategies for productivity,
-goal setting, and long-term growth.
+Goal setting, productivity techniques,
+and personal growth strategies.
 </p>
-<a href="success.html">Visit Page</a>
+<a href="success.html">Visit Page →</a>
 </div>
 
 <div class="card">
-<h3>Technology Resources</h3>
+<h3>Resources</h3>
 <p>
-Helpful websites, software, productivity apps,
-and digital tools.
+Helpful websites, software tools,
+and useful online services.
 </p>
-<a href="resources.html">Visit Page</a>
+<a href="resources.html">Visit Page →</a>
 </div>
 
 <div class="card">
 <h3>Blog</h3>
 <p>
-Articles covering technology, learning,
-AI, productivity, and online opportunities.
+Articles covering technology,
+AI, learning, and productivity.
 </p>
-<a href="blog.html">Visit Page</a>
+<a href="blog.html">Visit Page →</a>
 </div>
 
 </div>
 
 <div class="banner">
 
-<h2>Why This Website Exists</h2>
+<h2>About Aaron1261</h2>
 
 <p>
-Aaron1261 was created to organize useful online
-resources into easy-to-browse categories. The goal
-is to help visitors learn new skills, discover
-technology tools, improve productivity, and explore
-educational opportunities online.
+This website was created to organize useful information
+about technology, artificial intelligence, learning,
+productivity, and educational resources into one place.
+The goal is to make it easier to discover tools,
+learn new skills, and explore useful online resources.
 </p>
 
 </div>
@@ -247,12 +283,18 @@ educational opportunities online.
 
 <h2>Popular Topics</h2>
 
-<p>
-Artificial Intelligence • Remote Work •
-Online Learning • Productivity • Technology •
-Digital Skills • Personal Development •
-Career Growth
-</p>
+<div class="topics">
+
+<span class="topic">Artificial Intelligence</span>
+<span class="topic">Technology</span>
+<span class="topic">Productivity</span>
+<span class="topic">Online Learning</span>
+<span class="topic">Digital Skills</span>
+<span class="topic">Career Growth</span>
+<span class="topic">Remote Work</span>
+<span class="topic">Educational Resources</span>
+
+</div>
 
 </div>
 
@@ -263,13 +305,13 @@ Career Growth
 <h3>Aaron1261</h3>
 
 <p>
-Technology Resources • AI Tools • Learning
+Technology Resources • AI Tools • Learning Guides
 </p>
 
 <br>
 
 <p>
-Email:
+Contact:
 <a href="mailto:imipalletfactoryus@icloud.com">
 imipalletfactoryus@icloud.com
 </a>
