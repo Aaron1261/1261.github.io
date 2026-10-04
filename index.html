@@ -1,60 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aaron1261 - Make Money Online</title>
+
+<title>Aaron1261 | Make Money Online</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
 font-family:Arial,sans-serif;
-margin:0;
-background:#f4f4f4;
+background:#f5f5f5;
 color:#333;
+line-height:1.6;
 }
 
 header{
-background:#1f2937;
+background:#111827;
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:80px 20px;
 }
 
 header h1{
-font-size:48px;
-margin:0;
+font-size:3rem;
+margin-bottom:15px;
 }
 
-.button{
+header p{
+font-size:1.2rem;
+}
+
+.hero-btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:40px 0;
+}
+
+.section{
+background:white;
+padding:30px;
+border-radius:15px;
+margin-bottom:30px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+h2{
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.btn{
 display:inline-block;
 background:#2563eb;
 color:white;
-padding:15px 30px;
-border-radius:8px;
+padding:10px 20px;
+border-radius:6px;
 text-decoration:none;
-margin-top:20px;
-}
-
-section{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
-}
-
-img{
-width:100%;
-border-radius:10px;
 margin-top:10px;
+}
+
+input{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+border:1px solid #ccc;
+border-radius:6px;
 }
 
 footer{
 background:#111827;
 color:white;
 text-align:center;
-padding:20px;
-margin-top:30px;
+padding:30px;
+margin-top:40px;
 }
 </style>
 </head>
@@ -62,73 +119,98 @@ margin-top:30px;
 <body>
 
 <header>
-<h1>Aaron1261</h1>
-<p>Learn Skills • Build Income • Grow Online</p>
-<a class="button" href="#resources">Start Here</a>
+<h1>Make Money Online</h1>
+<p>Side Hustles • Affiliate Marketing • Online Income</p>
+<a class="hero-btn" href="#ideas">Start Here</a>
 </header>
 
-<section>
-<h2>Welcome</h2>
+<div class="container">
+
+<div class="section">
+<h2>About This Site</h2>
 <p>
-This website documents online learning, side hustles,
-technology resources, and ways to earn income online.
+This website shares legitimate ways to earn income online,
+build digital skills, and create long-term online businesses.
+</p>
+</div>
+
+<div class="section" id="ideas">
+<h2>Popular Ways To Make Money Online</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200" alt="">
+<div class="card-content">
+<h3>Freelancing</h3>
+<p>Offer services like writing, design, coding, or marketing.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200" alt="">
+<div class="card-content">
+<h3>Affiliate Marketing</h3>
+<p>Earn commissions by recommending products and services.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200" alt="">
+<div class="card-content">
+<h3>Content Creation</h3>
+<p>Create videos, blogs, or social content that attracts an audience.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>Recommended Resources</h2>
+
+<p>
+Replace these links with your affiliate links later.
 </p>
 
-<img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200" alt="Workspace">
-</section>
-
-<section>
-<h2>Top Online Income Ideas</h2>
-
 <ul>
-<li>Freelancing</li>
-<li>Affiliate Marketing</li>
-<li>Blogging</li>
-<li>Content Creation</li>
-<li>Web Development</li>
-<li>Graphic Design</li>
-<li>Selling Digital Products</li>
-<li>AI Services</li>
+<li>Affiliate Product #1</li>
+<li>Affiliate Product #2</li>
+<li>Affiliate Product #3</li>
 </ul>
+</div>
 
-<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1200" alt="Laptop">
-</section>
+<div class="section">
+<h2>Join My Email List</h2>
 
-<section id="resources">
-<h2>Resources</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+
+<a href="#" class="btn">Subscribe</a>
+
+<p style="margin-top:10px;">
+Build your audience and promote products later.
+</p>
+</div>
+
+<div class="section">
+<h2>Future Ad Space</h2>
 
 <p>
-Learning new skills can increase your opportunities online.
-Focus on building skills that create value for others.
+This area can be used for Google AdSense after the site gains content and traffic.
 </p>
+</div>
 
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200" alt="Learning">
-</section>
-
-<section>
-<h2>My Goals</h2>
-
-<ul>
-<li>Learn web development</li>
-<li>Create useful online projects</li>
-<li>Build valuable content</li>
-<li>Grow an audience</li>
-<li>Create sustainable income streams</li>
-</ul>
-
-<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200" alt="Success">
-</section>
-
-<section>
+<div class="section">
 <h2>Contact</h2>
 
-<p>
-More content and resources will be added over time.
-</p>
-</section>
+<p>Email: your-email@example.com</p>
+</div>
+
+</div>
 
 <footer>
-<p>© 2026 Aaron1261</p>
+<p>© 2026 Aaron1261 | All Rights Reserved</p>
 </footer>
 
 </body>
