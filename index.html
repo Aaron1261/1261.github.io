@@ -6,6 +6,60 @@
 <title>FastCashAI | Learn AI & Make Money Online</title>
 
 <style>
+  body {
+  background: linear-gradient(
+    -45deg,
+    #001f54,
+    #003366,
+    #004488,
+    #001133
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  .card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+h1 {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255,255,255,.3);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(255,255,255,.8);
+  }
+}
+
+.btn {
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
 *{
 margin:0;
 padding:0;
