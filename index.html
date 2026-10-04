@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aaron1261 | Learning, Technology & Resources</title>
+<title>Aaron1261 | Learning, AI Tools & Online Resources</title>
 
 <style>
 
-body{
+*{
 margin:0;
-font-family:Arial,sans-serif;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
 background:#f4f4f4;
 color:#333;
+line-height:1.6;
 }
 
 header{
 background:#0f172a;
 color:white;
 padding:20px;
+position:sticky;
+top:0;
+z-index:100;
 }
 
 nav{
 display:flex;
-justify-content:center;
 flex-wrap:wrap;
-gap:15px;
+justify-content:center;
+gap:20px;
 }
 
 nav a{
@@ -35,20 +44,20 @@ font-weight:bold;
 }
 
 .hero{
-background:#111827;
+background:#0f172a;
 color:white;
-text-align:center;
 padding:120px 20px;
+text-align:center;
 }
 
 .hero h1{
-font-size:60px;
+font-size:72px;
 margin-bottom:20px;
 }
 
 .hero p{
-font-size:24px;
-max-width:800px;
+font-size:30px;
+max-width:900px;
 margin:auto;
 }
 
@@ -59,8 +68,8 @@ padding:15px 30px;
 background:#2563eb;
 color:white;
 text-decoration:none;
-border-radius:8px;
-font-size:18px;
+border-radius:10px;
+font-size:20px;
 }
 
 .container{
@@ -69,9 +78,15 @@ margin:auto;
 padding:40px 20px;
 }
 
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+}
+
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:25px;
 }
 
@@ -79,38 +94,43 @@ gap:25px;
 background:white;
 padding:25px;
 border-radius:12px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
+box-shadow:0 2px 12px rgba(0,0,0,.1);
 }
 
 .card h3{
-margin-top:0;
+margin-bottom:15px;
 }
 
 .card a{
+display:inline-block;
+margin-top:15px;
 color:#2563eb;
-text-decoration:none;
 font-weight:bold;
+text-decoration:none;
 }
 
 .banner{
 background:white;
-padding:40px;
-border-radius:12px;
+padding:50px;
 margin-top:40px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
+border-radius:12px;
 text-align:center;
 }
 
 footer{
-background:#111827;
+background:#0f172a;
 color:white;
+padding:40px;
 text-align:center;
-padding:40px 20px;
 margin-top:50px;
 }
 
-</style>
+footer a{
+color:#60a5fa;
+text-decoration:none;
+}
 
+</style>
 </head>
 
 <body>
@@ -120,19 +140,12 @@ margin-top:50px;
 <nav>
 
 <a href="index.html">Home</a>
-
 <a href="side-hustles.html">Side Hustles</a>
-
 <a href="ai-tools.html">AI Tools</a>
-
 <a href="resources.html">Resources</a>
-
-<a href="blog.html">Blog</a>
-
-<a href="success.html">Success</a>
-
 <a href="learning.html">Learning</a>
-
+<a href="success.html">Success</a>
+<a href="blog.html">Blog</a>
 <a href="contact.html">Contact</a>
 
 </nav>
@@ -144,77 +157,101 @@ margin-top:50px;
 <h1>Aaron1261</h1>
 
 <p>
-Learning Skills • Technology Resources • AI Tools • Productivity • Personal Growth
+Learning Skills • Technology Resources • AI Tools •
+Online Opportunities • Productivity • Personal Growth
 </p>
 
-<a href="resources.html" class="button">
-Explore Resources
-</a>
+<a href="#featured" class="button">Explore Resources</a>
 
 </section>
 
 <div class="container">
 
-<div class="grid">
+<h2 class="section-title" id="featured">
+Featured Sections
+</h2>
 
-<div class="card">
-<h3>Side Hustles</h3>
-<p>
-Discover ideas, freelancing opportunities and online income resources.
-</p>
-<a href="side-hustles.html">Read More →</a>
-</div>
+<div class="grid">
 
 <div class="card">
 <h3>AI Tools</h3>
 <p>
-Explore artificial intelligence tools for learning and productivity.
+Discover useful AI tools for writing, productivity,
+research, coding, and business workflows.
 </p>
-<a href="ai-tools.html">Read More →</a>
+<a href="ai-tools.html">Visit Page</a>
 </div>
 
 <div class="card">
-<h3>Learning Center</h3>
+<h3>Side Hustles</h3>
 <p>
-Technology, education and personal development resources.
+Learn about freelancing, online income ideas,
+remote work, and digital opportunities.
 </p>
-<a href="learning.html">Read More →</a>
+<a href="side-hustles.html">Visit Page</a>
 </div>
 
 <div class="card">
-<h3>Resources</h3>
+<h3>Learning Resources</h3>
 <p>
-Helpful websites, courses and tools available online.
+Explore educational platforms, online courses,
+and skill-building resources.
 </p>
-<a href="resources.html">Read More →</a>
+<a href="learning.html">Visit Page</a>
 </div>
 
 <div class="card">
 <h3>Success Guides</h3>
 <p>
-Strategies for productivity, organization and growth.
+Practical strategies for productivity,
+goal setting, and long-term growth.
 </p>
-<a href="success.html">Read More →</a>
+<a href="success.html">Visit Page</a>
+</div>
+
+<div class="card">
+<h3>Technology Resources</h3>
+<p>
+Helpful websites, software, productivity apps,
+and digital tools.
+</p>
+<a href="resources.html">Visit Page</a>
 </div>
 
 <div class="card">
 <h3>Blog</h3>
 <p>
-Articles covering technology, AI, learning and online opportunities.
+Articles covering technology, learning,
+AI, productivity, and online opportunities.
 </p>
-<a href="blog.html">Read More →</a>
+<a href="blog.html">Visit Page</a>
 </div>
 
 </div>
 
 <div class="banner">
 
-<h2>About This Website</h2>
+<h2>Why This Website Exists</h2>
 
 <p>
-This website shares educational resources, technology information,
-productivity tools, AI resources, learning materials and practical guides.
-New content can be added over time as the website grows.
+Aaron1261 was created to organize useful online
+resources into easy-to-browse categories. The goal
+is to help visitors learn new skills, discover
+technology tools, improve productivity, and explore
+educational opportunities online.
+</p>
+
+</div>
+
+<div class="banner">
+
+<h2>Popular Topics</h2>
+
+<p>
+Artificial Intelligence • Remote Work •
+Online Learning • Productivity • Technology •
+Digital Skills • Personal Development •
+Career Growth
 </p>
 
 </div>
@@ -223,11 +260,22 @@ New content can be added over time as the website grows.
 
 <footer>
 
-<h3>Contact</h3>
+<h3>Aaron1261</h3>
 
 <p>
-imipalletfactoryus@icloud.com
+Technology Resources • AI Tools • Learning
 </p>
+
+<br>
+
+<p>
+Email:
+<a href="mailto:imipalletfactoryus@icloud.com">
+imipalletfactoryus@icloud.com
+</a>
+</p>
+
+<br>
 
 <p>
 © 2026 Aaron1261
