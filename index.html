@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Aaron1261 | Learn Skills • Build Income • Grow Online</title>
 
 <style>
@@ -20,33 +19,11 @@ color:#333;
 line-height:1.6;
 }
 
-nav{
-background:#111827;
-padding:15px;
-position:sticky;
-top:0;
-z-index:100;
-}
-
-nav ul{
-display:flex;
-justify-content:center;
-gap:20px;
-list-style:none;
-flex-wrap:wrap;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-font-weight:bold;
-}
-
 header{
-background:#111827;
+background:linear-gradient(135deg,#08152f,#102b5a);
 color:white;
 text-align:center;
-padding:100px 20px;
+padding:80px 20px;
 }
 
 header h1{
@@ -55,36 +32,45 @@ margin-bottom:20px;
 }
 
 header p{
-font-size:1.3rem;
-margin-bottom:25px;
+font-size:1.4rem;
+margin-bottom:30px;
 }
 
 .btn{
 display:inline-block;
-background:#2563eb;
+background:#3366ff;
 color:white;
-padding:14px 28px;
+padding:15px 35px;
 text-decoration:none;
 border-radius:8px;
+font-size:1.1rem;
+}
+
+nav{
+background:#0d1b36;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-weight:bold;
 }
 
 .container{
-width:90%;
 max-width:1200px;
 margin:auto;
-padding:40px 0;
+padding:20px;
 }
 
-.section{
+.card{
 background:white;
 padding:30px;
-margin-bottom:30px;
+margin:25px 0;
 border-radius:15px;
-box-shadow:0 4px 12px rgba(0,0,0,.08);
-}
-
-.section h2{
-margin-bottom:20px;
+box-shadow:0 3px 12px rgba(0,0,0,.08);
 }
 
 .grid{
@@ -93,223 +79,190 @@ grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:20px;
 }
 
-.card{
-background:white;
-border-radius:12px;
-overflow:hidden;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
 .card img{
 width:100%;
-height:220px;
-object-fit:cover;
+border-radius:12px;
+margin-bottom:15px;
 }
 
-.card-content{
+.tool{
+background:#f8f8f8;
 padding:20px;
-}
-
-.card h3{
-margin-bottom:10px;
-}
-
-input{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:1px solid #ccc;
-border-radius:6px;
+border-radius:10px;
 }
 
 footer{
-background:#111827;
+background:#08152f;
 color:white;
 text-align:center;
 padding:40px 20px;
+margin-top:40px;
 }
 
-.disclosure{
-font-size:14px;
-color:#666;
-margin-top:20px;
+.email{
+font-size:1.1rem;
+font-weight:bold;
+color:#3366ff;
 }
 </style>
 </head>
+
 <body>
 
 <nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#sidehustles">Side Hustles</a></li>
-<li><a href="#tools">AI Tools</a></li>
-<li><a href="#blog">Blog</a></li>
-<li><a href="#resources">Resources</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+<a href="#home">Home</a>
+<a href="#income">Income Ideas</a>
+<a href="#tools">AI Tools</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
 </nav>
 
 <header id="home">
 <h1>Aaron1261</h1>
 <p>Learn Skills • Build Income • Grow Online</p>
-<a href="#sidehustles" class="btn">Start Here</a>
+<a href="#income" class="btn">Start Here</a>
 </header>
 
 <div class="container">
 
-<div class="section">
+<section class="card">
 <h2>Welcome</h2>
+
 <p>
-This website shares online learning resources, technology tools,
-side hustles, freelancing opportunities, and practical ways to build
-skills that can help you earn income online.
+This website shares online learning resources,
+technology tools, side hustles, freelancing opportunities,
+and practical ways to build skills that can help you earn income.
 </p>
-</div>
 
-<div class="section" id="sidehustles">
-<h2>Featured Side Hustles</h2>
+<br>
+
+<img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200" alt="Work Desk">
+
+</section>
+
+<section class="card" id="income">
+
+<h2>Popular Income Ideas</h2>
 
 <div class="grid">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200">
-<div class="card-content">
+<div class="tool">
 <h3>Freelancing</h3>
-<p>Offer skills like writing, coding, design, editing, or marketing.</p>
-</div>
+<p>Offer writing, design, coding, or virtual assistant services.</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200">
-<div class="card-content">
+<div class="tool">
 <h3>Affiliate Marketing</h3>
-<p>Promote products and earn commissions through affiliate programs.</p>
-</div>
+<p>Recommend products and earn commissions when people buy.</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200">
-<div class="card-content">
+<div class="tool">
 <h3>Content Creation</h3>
-<p>Create videos, blogs, or social content and grow an audience.</p>
+<p>Create blogs, videos, or social content around topics you enjoy.</p>
 </div>
+
+<div class="tool">
+<h3>Online Learning</h3>
+<p>Develop high-value skills that can lead to better opportunities.</p>
 </div>
 
 </div>
-</div>
 
-<div class="section" id="tools">
-<h2>Popular AI Tools</h2>
+</section>
+
+<section class="card" id="tools">
+
+<h2>Recommended Tools</h2>
 
 <div class="grid">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200">
-<div class="card-content">
-<h3>AI Writing Tools</h3>
-<p>Draft articles, emails, and content faster.</p>
-</div>
+<div class="tool">
+<h3>Canva</h3>
+<p>Create graphics, websites, and social content.</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=1200">
-<div class="card-content">
-<h3>AI Image Tools</h3>
-<p>Create graphics and marketing visuals.</p>
-</div>
+<div class="tool">
+<h3>ChatGPT</h3>
+<p>Brainstorm ideas, research topics, and draft content.</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200">
-<div class="card-content">
-<h3>Web Development</h3>
-<p>Build websites and digital projects.</p>
+<div class="tool">
+<h3>GitHub Pages</h3>
+<p>Host websites for free.</p>
 </div>
+
+<div class="tool">
+<h3>Google Docs</h3>
+<p>Create and organize content efficiently.</p>
 </div>
 
 </div>
-</div>
 
-<div class="section" id="blog">
+</section>
+
+<section class="card" id="blog">
+
 <h2>Latest Articles</h2>
 
-<ul>
-<li>How to Start Freelancing with No Experience</li>
-<li>Best Beginner Side Hustles</li>
-<li>Top Free AI Tools</li>
-<li>Building Websites with GitHub Pages</li>
-<li>Learning Web Development Step by Step</li>
-</ul>
-</div>
+<h3>10 Beginner-Friendly Ways To Earn Online</h3>
+<p>Explore practical online opportunities and skill-building paths.</p>
 
-<div class="section" id="resources">
+<br>
+
+<h3>How To Create A Free Website</h3>
+<p>Learn how to launch and publish a website using GitHub Pages.</p>
+
+<br>
+
+<h3>AI Tools Worth Learning</h3>
+<p>A simple introduction to modern AI tools and how they can help.</p>
+
+</section>
+
+<section class="card">
+
 <h2>Resources</h2>
 
 <div class="grid">
 
-<div class="card">
-<div class="card-content">
-<h3>Learning Resources</h3>
-<p>Courses, tutorials, and free educational content.</p>
-</div>
+<div class="tool">
+<h3>Learning</h3>
+<p>Free courses, tutorials, and educational resources.</p>
 </div>
 
-<div class="card">
-<div class="card-content">
-<h3>Business Tools</h3>
-<p>Software and services for creators and entrepreneurs.</p>
-</div>
+<div class="tool">
+<h3>Technology</h3>
+<p>Useful software, apps, and online platforms.</p>
 </div>
 
-<div class="card">
-<div class="card-content">
+<div class="tool">
 <h3>Productivity</h3>
-<p>Tools that help you work smarter and stay organized.</p>
-</div>
-</div>
-
-</div>
+<p>Tools and systems for staying organized.</p>
 </div>
 
-<div class="section">
-<h2>Join The Newsletter</h2>
-
-<input type="text" placeholder="Your Name">
-<input type="email" placeholder="Your Email">
-
-<a href="#" class="btn">Subscribe</a>
-
-<p class="disclosure">
-Newsletter form is a placeholder until you connect an email service.
-</p>
 </div>
 
-<div class="section" id="contact">
+</section>
+
+<section class="card" id="contact">
+
 <h2>Contact</h2>
 
-<p>Email: your-email@example.com</p>
+<p>Questions, suggestions, or collaboration inquiries:</p>
 
-<p>
-Use this section later to add social media links,
-business inquiries, or a contact form.
+<br>
+
+<p class="email">
+imipalletfactoryus@icloud.com
 </p>
-</div>
 
-<div class="section">
-<h2>Affiliate Disclosure</h2>
-
-<p>
-Some links on this website may be affiliate links.
-If you purchase through those links, I may earn a commission
-at no additional cost to you.
-</p>
-</div>
+</section>
 
 </div>
 
 <footer>
 <p>© 2026 Aaron1261. All Rights Reserved.</p>
-<p>Learn • Build • Grow</p>
+<p>Built with GitHub Pages.</p>
 </footer>
 
 </body>
